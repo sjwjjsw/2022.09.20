@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/sjwjjsw/asd/e18867524370dd3412281a00967d44395b
 [server_local]
 
 [server_remote]
-https://subscribe.pronetworklink.com/api/v1/client/a38a170fe722a5d564aac9e22f53ed05, tag=Tag-HYF, update-interval=172800, opt-parser=false, enabled=true
+https://subscribe.pronetworklink.com/api/v1/client/d593a1f582ff19c2583f6e1fcf81194e, tag=Tag-1664557255, img-url=applelogo.system, update-interval=172800, opt-parser=false, enabled=true
 
 [dns]
 
@@ -33,6 +33,7 @@ doh-server = https://223.5.5.5/dns-query, https://223.6.6.6/dns-query
 
 
 [filter_remote]
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/TikTok.list, force-policy=proxy, update-interval=172800, opt-parser=true, enabled=true
 
 https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list, tag=苹果服务, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
 
